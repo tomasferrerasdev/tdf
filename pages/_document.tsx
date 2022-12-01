@@ -24,6 +24,8 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <html lang="es" />
+          <meta name="robots" content="noindex,nofollow" />
+          <meta name="googlebot" content="noindex,nofollow" />
         </Head>
         <body>
           <Main />
