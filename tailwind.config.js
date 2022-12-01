@@ -8,7 +8,7 @@ module.exports = {
     screens: {
       sm: '640px',
       md: '1024px',
-      xl: '1280px',
+      xl: '1200px',
     },
     fontFamily: {
       nunito: 'Nunito, sans-serif',
