@@ -1,4 +1,4 @@
-import { BaseLayout, Hero } from '../components';
+import { BaseLayout, Hero, Services } from '../components';
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
         }
       >
         <Hero />
+        <Services />
       </BaseLayout>
     </>
   );

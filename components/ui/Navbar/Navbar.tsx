@@ -3,7 +3,7 @@ import { MobileMenu } from './MobileMenu';
 export const Navbar = () => {
   return (
     <>
-      <nav className="container mx-auto py-10 px-4 flex items-center justify-between w-full">
+      <nav className="container mx-auto py-10 px-4 flex items-center justify-between w-full ">
         <div className="flex gap-8">
           <a
             href="#"

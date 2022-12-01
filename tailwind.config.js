@@ -12,7 +12,7 @@ module.exports = {
     },
     fontFamily: {
       nunito: 'Nunito, sans-serif',
-      montserrat: 'Montserratm sans-serif',
+      montserrat: 'Montserrat, sans-serif',
     },
     colors: {
       white: '#E9EBEA',
