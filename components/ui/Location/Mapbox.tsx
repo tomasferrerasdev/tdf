@@ -14,7 +14,7 @@ export const Mapbox = () => {
       container: mapContainer.current!,
       style: 'mapbox://styles/tomasferreras/clawtkdc1001j16pi0qiudynd',
       center: [-67.72531612754138, -53.794585313559814],
-      zoom: 13,
+      zoom: 12.9,
     });
   }, []);
   return <div ref={mapContainer} className="w-full h-[350px]" />;

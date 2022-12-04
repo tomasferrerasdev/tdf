@@ -15,8 +15,11 @@ module.exports = {
       montserrat: 'Montserrat, sans-serif',
     },
     colors: {
-      white: '#E9EBEA',
+      white: '#dedede',
       black: '#171717',
+      black_dark: '#000000',
+      gray: '#2b2b2b',
+      gray_light: '#666666',
     },
     extend: {},
   },

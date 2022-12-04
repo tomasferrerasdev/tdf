@@ -23,7 +23,7 @@ export const BaseLayout: FC<Props> = ({
         <meta name="og:description" content={pageDescription} />
         {imageFullUrl && <meta name="og:image" content={imageFullUrl} />}
       </Head>
-      <main>{children}</main>
+      <main className="bg-black_dark">{children}</main>
     </>
   );
 };

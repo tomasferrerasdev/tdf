@@ -10,8 +10,8 @@ export const SERVICES: IService[] = [
     id: 1,
     title: 'Doméstico',
     description:
-      'Contamos con un equipo de asesoramiento para ayudarte a evaluar la mejor alternativa para migrar tus servicios.',
-    phone: '+54 9 2964 46-7465',
+      'Contamos con un equipo de asesoramiento para ayudarte a evaluar la mejor alternativa para adquirir nuestros servicios de internet.',
+    phone: '02964 61-4077',
   },
   {
     id: 2,
