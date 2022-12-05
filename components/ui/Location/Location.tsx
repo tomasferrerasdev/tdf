@@ -13,7 +13,7 @@ export const Location = () => {
   return (
     <div className="container min-h-[90vh] mx-auto pt-10 pb-16 px-4 flex flex-col text-white justify-center gap-10">
       <div className="font-montserrat text-3xl font-bold md:text-[40px] leading-tight">
-        <h2>Cobertura en las ciudades de Rio Grande y tolhuin.</h2>
+        <h2>Cobertura en las ciudades de Río Grande y Tolhuin.</h2>
         <h2>
           San Sebastián, zonas rurales y rutas provinciales en Tierra del Fuego.
         </h2>

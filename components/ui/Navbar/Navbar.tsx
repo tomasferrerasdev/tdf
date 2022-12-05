@@ -1,3 +1,4 @@
+import Dropdown from './Dropdown';
 import { MobileMenu } from './MobileMenu';
 
 export const Navbar = () => {
@@ -21,8 +22,8 @@ export const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="w-fit text-white text-xl justify-center px-8 py-2 bg-black hidden sm:flex">
-          <p>contactanos</p>
+        <div className="hidden sm:flex">
+          <Dropdown />
         </div>
       </nav>
     </>

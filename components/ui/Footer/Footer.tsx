@@ -15,7 +15,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col sm:gap-2 text-white text-lg justify-start items-start">
-          <a href="#">Telefono: 02964 61-4077</a>
+          <a href="#">Teléfono: 02964 61-4077</a>
           <a href="#">Solo empresas: +54 9 2964 46-7465</a>
         </div>
       </div>

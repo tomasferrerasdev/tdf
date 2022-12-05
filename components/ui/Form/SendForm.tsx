@@ -98,7 +98,7 @@ export const SendForm = () => {
             id="subject"
             name="subject"
             className="block p-3 py-4 w-full text-sm border border-none shadow-sm bg-black"
-            placeholder="En que podemos ayudarte"
+            placeholder="En qué podemos ayudarte"
             required
             value={email.subject}
             onChange={handleChange}
