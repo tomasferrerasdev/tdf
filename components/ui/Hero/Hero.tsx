@@ -21,9 +21,12 @@ export const Hero = () => {
             >
               <p className="font-bold">Conocenos</p>
             </a>
-            <button className="w-[150px] text-white flex justify-center px-10 py-4 border border-white">
+            <a
+              className="w-[150px] text-white flex justify-center px-10 py-4 border border-white"
+              href="#contact"
+            >
               <p className="font-bold">Contactanos</p>
-            </button>
+            </a>
           </div>
         </div>
       </div>
