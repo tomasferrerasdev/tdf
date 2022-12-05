@@ -16,6 +16,12 @@ export const Mapbox = () => {
       center: [-67.72531612754138, -53.794585313559814],
       zoom: 12.9,
     });
+
+    const marker = new mapboxgl.Marker({
+      color: '#FFFFFF',
+    })
+      .setLngLat([-67.72531612754138, -53.794585313559814])
+      .addTo(map);
   }, []);
   return <div ref={mapContainer} className="w-full h-[350px]" />;
 };
