@@ -14,9 +14,25 @@ export const ServiceItem = () => {
               <h3 className="font-nunito font-semibold text-3xl">{title}</h3>
               <p className="font-nunito font-light text-xl">{description}</p>
             </div>
-            <div className="bg-white text-black w-fit py-2 px-8">
-              <p className="text-xl">{phone}</p>
-            </div>
+            {title === 'Empresarial' ? (
+              <a
+                className="bg-white text-black w-fit py-2 px-8 cursor-pointer"
+                href="https://wa.me/5492964467465"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="text-xl">{phone}</p>
+              </a>
+            ) : (
+              <a
+                className="bg-white text-black w-fit py-2 px-8 cursor-pointer"
+                href="tel:02964 61-4077"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="text-xl">{phone}</p>
+              </a>
+            )}
           </div>
         </div>
       ))}

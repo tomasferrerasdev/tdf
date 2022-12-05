@@ -3,3 +3,4 @@ export * from './Navbar';
 export * from './Services';
 export * from './Location';
 export * from './Form';
+export * from './Footer';

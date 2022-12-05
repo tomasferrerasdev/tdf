@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="309px" height="453px" viewBox="0 0 309 453" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <linearGradient x1="0.9988519" y1="0.00229624147" x2="0" y2="1" id="gradient_1">
+      <stop offset="0" stop-color="#31FB9A" />
+      <stop offset="0.354360223" stop-color="#31FBE6" />
+      <stop offset="0.7804318" stop-color="#0088FF" />
+      <stop offset="1" stop-color="#124BFF" />
+    </linearGradient>
+  </defs>
+  <g id="Section1_Graphic" transform="translate(1.5 1.5)">
+    <path d="M0 476C131.444 476 238 369.444 238 238C238 106.556 131.444 0 0 0" transform="matrix(0.5150381 0.8571673 -0.8571673 0.5150381 502.0059 0)" id="Oval-Copy" fill="none" stroke="url(#gradient_1)" stroke-width="3" />
+    <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(52 153.579)" id="Oval" fill="#30FBBA" stroke="none" />
+    <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" transform="translate(109 89.57904)" id="Oval-Copy-2" fill="#29E9EA" stroke="none" />
+    <path d="M3 6C4.65685 6 6 4.65685 6 3C6 1.34315 4.65685 0 3 0C1.34315 0 0 1.34315 0 3C0 4.65685 1.34315 6 3 6Z" transform="translate(49 272.579)" id="Oval-Copy-3" fill="#0492FD" stroke="none" />
+    <path d="M3 6C4.65685 6 6 4.65685 6 3C6 1.34315 4.65685 0 3 0C1.34315 0 0 1.34315 0 3C0 4.65685 1.34315 6 3 6Z" transform="translate(119 200.579)" id="Oval-Copy-4" fill="#31FBD7" stroke="none" />
+    <path d="M3 6C4.65685 6 6 4.65685 6 3C6 1.34315 4.65685 0 3 0C1.34315 0 0 1.34315 0 3C0 4.65685 1.34315 6 3 6Z" transform="translate(0 109.579)" id="Oval-Copy-5" fill="#124BFF" stroke="none" />
+  </g>
+</svg>

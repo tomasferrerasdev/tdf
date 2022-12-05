@@ -11,7 +11,7 @@ const DynamicMap: ComponentType<{}> = dynamic(
 
 export const Location = () => {
   return (
-    <div className="container min-h-[90vh] mx-auto py-10 px-4 flex flex-col text-white justify-center gap-10">
+    <div className="container min-h-[90vh] mx-auto pt-10 pb-16 px-4 flex flex-col text-white justify-center gap-10">
       <div className="font-montserrat text-3xl font-bold md:text-[40px] leading-tight">
         <h2>Cobertura en las ciudades de Rio Grande y tolhuin.</h2>
         <h2>
@@ -20,10 +20,16 @@ export const Location = () => {
       </div>
 
       <div className="flex flex-col gap-2">
-        {CONTACTS.map(({ id, title, address }) => (
+        {CONTACTS.map(({ id, title, address, mailto }) => (
           <div key={id} className="md:flex items-center gap-2">
             <h3 className="text-xl font-nunito font-bold">{title}</h3>
-            <p>{address}</p>
+            {mailto ? (
+              <a href={mailto} className="underline underline-offset-8">
+                {address}
+              </a>
+            ) : (
+              <p>{address}</p>
+            )}
           </div>
         ))}
       </div>

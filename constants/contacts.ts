@@ -2,6 +2,7 @@ export interface IContact {
   id: number;
   title: string;
   address: string;
+  mailto?: string;
 }
 
 export const CONTACTS: IContact[] = [
@@ -19,5 +20,6 @@ export const CONTACTS: IContact[] = [
     id: 3,
     title: 'Email:',
     address: 'administracion@tdfsatelital.com',
+    mailto: 'mailto:administracion@tdfsatelital.com',
   },
 ];

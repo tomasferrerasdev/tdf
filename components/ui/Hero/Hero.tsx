@@ -15,12 +15,15 @@ export const Hero = () => {
             encuentro.
           </p>
           <div className="flex gap-6 w-full md:justify-center">
-            <div className="w-[150px] text-black flex justify-center px-10 py-4 bg-white">
+            <a
+              className="w-[150px] text-black flex justify-center px-10 py-4 bg-white"
+              href="#services"
+            >
               <p className="font-bold">Conocenos</p>
-            </div>
-            <div className="w-[150px] text-white flex justify-center px-10 py-4 border border-white">
+            </a>
+            <button className="w-[150px] text-white flex justify-center px-10 py-4 border border-white">
               <p className="font-bold">Contactanos</p>
-            </div>
+            </button>
           </div>
         </div>
       </div>

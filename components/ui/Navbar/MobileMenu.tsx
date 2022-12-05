@@ -3,6 +3,7 @@ import { MenuCloseIcon, MenuIcon } from '../../icons';
 
 export const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       {!isOpen ? (
@@ -15,13 +16,13 @@ export const MobileMenu = () => {
       ) : (
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="absolute top-10 right-4 z-10"
+          className="fixed top-10 right-4 z-30"
         >
           <MenuCloseIcon size={8} strokeWidth={2} />
         </button>
       )}
       <div
-        className={`top-0 right-0 fixed bg-white w-full h-screen py-10 px-4 ${
+        className={`top-0 right-0 z-20 fixed bg-white w-full h-screen py-10 px-4 ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         } ease-in-out duration-300`}
       >

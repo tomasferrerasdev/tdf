@@ -1,4 +1,11 @@
-import { BaseLayout, Form, Hero, Location, Services } from '../components';
+import {
+  BaseLayout,
+  Footer,
+  Form,
+  Hero,
+  Location,
+  Services,
+} from '../components';
 
 export default function Home() {
   return (
@@ -12,7 +19,10 @@ export default function Home() {
         <Hero />
         <Services />
         <Location />
-        <Form />
+        <div className="bg-[url(/images/footer-bg.jpg)]">
+          <Form />
+          <Footer />
+        </div>
       </BaseLayout>
     </>
   );

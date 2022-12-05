@@ -14,14 +14,16 @@ module.exports = {
       nunito: 'Nunito, sans-serif',
       montserrat: 'Montserrat, sans-serif',
     },
-    colors: {
-      white: '#dedede',
-      black: '#171717',
-      black_dark: '#000000',
-      gray: '#2b2b2b',
-      gray_light: '#666666',
+
+    extend: {
+      colors: {
+        white: '#dedede',
+        black: '#171717',
+        black_dark: '#000000',
+        gray: '#2b2b2b',
+        gray_light: '#666666',
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
