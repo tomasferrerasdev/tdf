@@ -2,11 +2,11 @@ import { SERVICES } from '../../../constants';
 
 export const ServiceItem = () => {
   return (
-    <div className="flex flex-col gap-16 md:grid md:grid-cols-2 md:gap-10">
+    <div className="flex flex-col gap-16 md:grid md:grid-cols-2 md:gap-10 z-10">
       {SERVICES.map(({ title, description, id, phone }) => (
         <div
           key={id}
-          className="flex gap-5 border-l-2 border-gray_light md:px-4 md:py-1"
+          className="flex gap-5 border-l-2 border-white md:px-4 md:py-1"
         >
           <span></span>
           <div className="flex flex-col gap-8 justify-between">
