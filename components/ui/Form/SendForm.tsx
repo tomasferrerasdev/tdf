@@ -12,8 +12,8 @@ export interface IEmail {
 }
 
 export const SendForm = () => {
-  const [longitude, setLongitude] = useState<string>('');
-  const [latitude, setLatitude] = useState<string>('');
+  const [longitude, setLongitude] = useState<string>('No hay informacion');
+  const [latitude, setLatitude] = useState<string>('No hay informacion');
 
   const [email, setEmail] = useState<IEmail>({
     fullname: '',
