@@ -7,7 +7,7 @@ export default function Example() {
     <div className="text-right">
       <Menu as="div" className="relative inline-block text-left">
         <div>
-          <Menu.Button className="inline-flex w-full justify-center bg-black px-8 py-4 text-sm font-medium text-white ">
+          <Menu.Button className="inline-flex w-full justify-center bg-black px-4 py-4 text-sm font-medium text-white ">
             Contactanos
             <ChevronDownIcon
               className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
@@ -25,11 +25,11 @@ export default function Example() {
           leaveTo="transform opacity-0 scale-95"
         >
           <Menu.Items className="absolute right-0 mt-2 w-80 origin-top-right divide-y divide-white bg-black shadow-lg">
-            <div className="px-1 py-1 ">
+            <div className="px-2 py-2 ">
               <Menu.Item>
                 <a
                   className="group flex w-full items-center rounded-md px-2 py-2 text-sm text-white"
-                  href="tel:02964 61-4077"
+                  href="https://wa.me/542964614077"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -37,7 +37,7 @@ export default function Example() {
                 </a>
               </Menu.Item>
             </div>
-            <div className="px-1 py-1 ">
+            <div className="px-2 py-2 ">
               <Menu.Item>
                 <a
                   className="group flex w-full items-center rounded-md px-2 py-2 text-sm text-white"

@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <>
-      <div className="container min-h-[50px] gap-6 flex justify-between flex-col sm:flex-row items-start sm:items-center mx-auto py-10 px-4 text-white border-t border-white">
+      <div className="container min-h-[50px] gap-6 flex justify-between flex-col sm:flex-row items-start sm:items-center mx-auto py-10 px-4 text-white border-t border-[#8cd6b1]">
         <div className="flex align-middle gap-6 items-center">
           <a
             href="#"

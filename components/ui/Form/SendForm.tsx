@@ -43,33 +43,30 @@ export const SendForm = () => {
     <>
       <form className="space-y-8" onSubmit={handleSubmit}>
         <div className="flex flex-col w-full gap-8 md:flex-row">
-          <div className="flex flex-col flex-1 gap-2 sm:gap-2">
-            <label className="block text-sm font-medium ">
-              Nombre completo <span className="text-red-500">*</span>
-            </label>
+          <div className="flex flex-col-reverse flex-1 gap-2 sm:gap-2">
             <input
               type="text"
               id="name"
               name="fullname"
               className="shadow-sm border border-none text-sm block w-full p-3 py-4 bg-black"
-              placeholder="Ejemplo: Tomas Ferreras"
+              placeholder="Ejemplo: Hilario Martin Ordoñez"
               required
               value={email.fullname}
               onChange={handleChange}
             />
-            <p
-              className={`text-red-500 text-xs italic ${
-                !email.fullname ? `` : `invisible`
-              }`}
-            >
-              Este campo es obligatorio
-            </p>
+            <label className="block text-sm font-medium ">
+              Nombre completo{' '}
+              <span
+                className={`text-[#DF4B4B] ${
+                  !email.fullname ? `visible` : `hidden`
+                }`}
+              >
+                * requerido
+              </span>
+            </label>
           </div>
 
-          <div className="flex flex-col flex-1 gap-2 sm:gap-2">
-            <label className="block text-sm font-medium ">
-              Email <span className="text-red-500">*</span>
-            </label>
+          <div className="flex flex-col-reverse flex-1 gap-2 sm:gap-2">
             <input
               type="email"
               id="email"
@@ -80,18 +77,28 @@ export const SendForm = () => {
               value={email.email}
               onChange={handleChange}
             />
-            <p
-              className={`text-red-500 text-xs italic ${
-                !email.email ? `` : `invisible`
-              }`}
-            >
-              {!email.email && ' Este campo es obligatorio'}
-            </p>
+            <label className="block text-sm font-medium ">
+              Email{' '}
+              <span
+                className={`text-[#DF4B4B] ${
+                  !email.email ? `visible` : `hidden`
+                }`}
+              >
+                * requerido
+              </span>
+            </label>
           </div>
         </div>
         <div className="flex flex-col flex-1 gap-2 sm:gap-2">
           <label className="block text-sm font-medium">
-            Asunto <span className="text-red-500">*</span>
+            Asunto{' '}
+            <span
+              className={`text-[#DF4B4B] ${
+                !email.subject ? `visible` : `hidden`
+              }`}
+            >
+              * requerido
+            </span>
           </label>
           <input
             type="text"
@@ -103,17 +110,17 @@ export const SendForm = () => {
             value={email.subject}
             onChange={handleChange}
           />
-          <p
-            className={`text-red-500 text-xs italic ${
-              !email.subject ? `` : `invisible`
-            }`}
-          >
-            Este campo es obligatorio
-          </p>
         </div>
         <div className="sm:col-span-2 flex flex-col flex-1 gap-2 sm:gap-2">
           <label className="block text-sm font-medium">
-            Mensaje <span className="text-red-500">*</span>
+            Mensaje{' '}
+            <span
+              className={`text-[#DF4B4B] ${
+                !email.message ? `visible` : `hidden`
+              }`}
+            >
+              * requerido
+            </span>
           </label>
           <textarea
             id="message"
@@ -125,13 +132,6 @@ export const SendForm = () => {
             onChange={handleChange}
             required
           ></textarea>
-          <p
-            className={`text-red-500 text-xs italic ${
-              !email.message ? `` : `invisible`
-            }`}
-          >
-            Este campo es obligatorio
-          </p>
         </div>
 
         <button

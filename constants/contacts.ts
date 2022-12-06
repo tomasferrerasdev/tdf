@@ -20,6 +20,6 @@ export const CONTACTS: IContact[] = [
     id: 3,
     title: 'Email:',
     address: 'administracion@tdfsatelital.com',
-    mailto: 'mailto:administracion@tdfsatelital.com',
+    mailto: 'mailto:administracion@tdfsatelital.com.ar',
   },
 ];

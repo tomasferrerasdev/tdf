@@ -19,10 +19,8 @@ export default function Home() {
         <Hero />
         <Services />
         <Location />
-        <div className="bg-[url(/images/footer-bg.jpg)]">
-          <Form />
-          <Footer />
-        </div>
+        <Form />
+        <Footer />
       </BaseLayout>
     </>
   );

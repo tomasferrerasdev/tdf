@@ -1,5 +1,4 @@
 import Dropdown from './Dropdown';
-import { MobileMenu } from './MobileMenu';
 
 export const Navbar = () => {
   return (
@@ -12,19 +11,13 @@ export const Navbar = () => {
           >
             TDFSatelital
           </a>
-          <div className="sm:hidden">
-            <MobileMenu />
-          </div>
-          <div className="hidden sm:flex">
-            <div className="flex gap-4 text-white text-xl items-center">
-              <a href="#">servicios</a>
-              <a href="#">nosotros</a>
-            </div>
+
+          <div className="gap-4 text-white text-xl items-center hidden sm:flex">
+            <a href="#services">servicios</a>
+            <a href="#location">nosotros</a>
           </div>
         </div>
-        <div className="hidden sm:flex">
-          <Dropdown />
-        </div>
+        <Dropdown />
       </nav>
     </>
   );

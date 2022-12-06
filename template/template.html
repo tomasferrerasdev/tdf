@@ -13,6 +13,9 @@
         -webkit-text-size-adjust: 100%;
         -ms-text-size-adjust: 100%;
       }
+      .span {
+        color: #8cd6b1;
+      }
       table {
         border-collapse: collapse !important;
       }
@@ -40,10 +43,10 @@
       .form-container {
         margin-bottom: 24px;
         padding: 20px;
-        border: 1px dashed #ccc;
+        border: 1px dashed #8cd6b1;
       }
       .form-heading {
-        color: #2a2a2a;
+        color: #fff;
         font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
         font-weight: 800;
         text-align: left;
@@ -53,7 +56,7 @@
         padding: 0;
       }
       .form-answer {
-        color: #2a2a2a;
+        color: rgb(155, 155, 155);
         font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
         font-weight: 300;
         text-align: left;
@@ -83,7 +86,7 @@
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
       <tr>
         <td
-          bgcolor="#ffffff"
+          bgcolor="#171717"
           align="center"
           style="padding: 10px 15px 30px 15px"
           class="section-padding"
@@ -113,11 +116,16 @@
                               padding: 0 0 0 0;
                               font-size: 16px;
                               line-height: 25px;
-                              color: #232323;
+                              color: #fff;
                             "
                             class="padding message-content"
                           >
-                            <h2>Consulta a traves de tdfsatelital.com.ar</h2>
+                            <h2>
+                              Consulta a traves de
+                              <span style="color: #8cd6b1"
+                                >tdfsatelital.com.ar</span
+                              >
+                            </h2>
                             <div class="form-container">${htmlData}</div>
                           </td>
                         </tr>
