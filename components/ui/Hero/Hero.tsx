@@ -33,7 +33,13 @@ export const Hero = () => {
           </div>
           <div className=" h-[400px] w-full relative">
             <div className="absolute h-[450px] w-full top-[-100px] md:h-[600px] md:top-[-150px]">
-              <Image src="/images/hero-img.png" fill alt="" objectFit="cover" />
+              <Image
+                src="/images/hero-img.webp"
+                fill
+                alt="data globe image"
+                objectFit="cover"
+                priority
+              />
             </div>
           </div>
         </div>

@@ -7,6 +7,8 @@ const keyTranslate = {
   email: 'Email',
   subject: 'Asunto',
   message: 'Mensaje',
+  longitude: 'Longitud',
+  latitude: 'Latitud',
 };
 
 const generateEmailContent = (data: IEmail) => {

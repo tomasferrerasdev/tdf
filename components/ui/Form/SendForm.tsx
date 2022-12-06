@@ -7,19 +7,39 @@ export interface IEmail {
   email: string;
   subject: string;
   message: string;
+  longitude: string;
+  latitude: string;
 }
 
 export const SendForm = () => {
+  const [longitude, setLongitude] = useState<string>('');
+  const [latitude, setLatitude] = useState<string>('');
+
   const [email, setEmail] = useState<IEmail>({
     fullname: '',
     email: '',
     subject: '',
     message: '',
+    longitude: '',
+    latitude: '',
   });
 
+  const getPosition = (): void => {
+    navigator.geolocation.getCurrentPosition(function (position) {
+      const lat = position.coords.latitude.toString();
+      const lon = position.coords.longitude.toString();
+
+      setLongitude(lon);
+      setLatitude(lat);
+    });
+  };
+
   const handleChange = (e: { target: { name: any; value: any } }): void => {
+    getPosition();
     setEmail({
       ...email,
+      longitude,
+      latitude,
       [e.target.name]: e.target.value,
     });
   };
@@ -134,12 +154,14 @@ export const SendForm = () => {
           ></textarea>
         </div>
 
-        <button
-          type="submit"
-          className="py-3 px-5 text-sm font-medium text-center text-white bg-black sm:w-fit"
-        >
-          Enviar mail
-        </button>
+        <div className="flex flex-row gap-4">
+          <button
+            type="submit"
+            className="py-3 px-5 text-sm font-medium text-center text-white bg-black sm:w-fit"
+          >
+            Envianos tu ubicacion
+          </button>
+        </div>
         <Toaster />
       </form>
     </>
