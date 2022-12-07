@@ -159,7 +159,7 @@ export const SendForm = () => {
             type="submit"
             className="py-3 px-5 text-sm font-medium text-center text-white bg-black sm:w-fit"
           >
-            Envianos tu ubicacion
+            Enviar consulta
           </button>
         </div>
         <Toaster />
